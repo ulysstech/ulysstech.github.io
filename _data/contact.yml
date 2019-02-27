@@ -1,13 +1,13 @@
 
 social:
   - name: facebook
-    url: "facebook.com"
+    url: "https://facebook.com"
   - name: twitter
-    url: "twitter.com"
+    url: "https://twitter.com"
   - name: linkedin
-    url: "linkedin.com"
+    url: "https://linkedin.com"
   - name: github
-    url: "github.com"
+    url: "https://github.com"
 
 
 email: "contact@email.com"
