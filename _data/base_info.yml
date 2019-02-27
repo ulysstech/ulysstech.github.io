@@ -1,0 +1,12 @@
+site_title: "ULYS | assurance & tech"
+site_description: "Une application pour assurance"
+
+menu:
+  - "home"
+  - "about"
+  - "features"
+  - "works"
+  - "team"
+  - "reviews"
+  - "pricing"
+  - "contact"

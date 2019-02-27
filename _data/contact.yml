@@ -1,0 +1,15 @@
+
+social:
+  - name: facebook
+    url: "facebook.com"
+  - name: twitter
+    url: "twitter.com"
+  - name: linkedin
+    url: "linkedin.com"
+  - name: github
+    url: "github.com"
+
+
+email: "contact@email.com"
+tel: "+261 34 01 500 94"
+address: "In the tardis"
