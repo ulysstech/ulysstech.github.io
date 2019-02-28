@@ -1,14 +1,14 @@
 pro:
   an: "359 000Ar/Y"
   mois: "29 000Ar/Mo"
-  jour: "599"
+  jour: "699"
 
 solo:
   an: "431 000Ar/Y"
   mois: "35 900Ar/Mo"
-  jour: "799"
+  jour: "899"
 
 corp:
   an: "499 000Ar/Y"
   mois: "41 900Ar/Mo"
-  jour: "999"
+  jour: "1 199"

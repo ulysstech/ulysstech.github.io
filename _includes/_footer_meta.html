@@ -40,3 +40,20 @@
 
   gtag('config', 'UA-135356860-1');
 </script>
+
+<script>
+    $("#form_newsletter").submit(function(event){
+        event.preventDefault(); //prevent default action 
+        var post_url = $(this).attr("action"); //get form action url
+        var request_method = $(this).attr("method"); //get form GET/POST method
+        var form_data = $(this).serialize(); //Encode form elements for submission
+        
+        $.ajax({
+            url : post_url,
+            type: request_method,
+            data : form_data
+        }).done(function(response){ //
+             window.location.href = "https://ulysstech.github.io/thanks";
+        });
+    });
+</script>

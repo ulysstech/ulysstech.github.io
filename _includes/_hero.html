@@ -1,3 +1,4 @@
+
 <section class="u-py-md-250 u-flex-center startup-hero">
   <div class="container">
     <div class="row align-items-center">
@@ -8,8 +9,8 @@
         </h1>
         <p class="u-fs-22 u-lh-1_8 my-4">
           Nous mettons toute notre puissance créatrice et notre savoir faire
-          technique pour vous fournir le produits d'assurance la plus simple et
-          la moins cher possible, selon vos besoins et vos envies.
+          technique pour vous fournir les produits d'assurance les plus simples et
+          les moins chers possibles, selon vos besoins et vos envies.
         </p>
         <a href="#" class="btn btn btn-rounded btn-primary  u-w-150 u-mt-15">
           essayer
@@ -18,13 +19,14 @@
       <div class="col-lg-5">
         <div class="card box-shadow-v2 bg-white u-of-hidden text-center">
           <h2 class="bg-primary m-0 py-3 text-white">S'abonner à la Newsletter</h2>
-          <form action="#" method="POST" class="p-4 p-md-5">
+          <form action="{{site.data.meta.postUrl}}" method="POST" class="p-4 p-md-5" id="form_newsletter">
             <div class="input-group u-rounded-50 border u-of-hidden u-mb-20">
               <div class="input-group-addon bg-white border-0 pl-4 pr-0">
                 <span class="icon icon-User text-primary"></span>
               </div>
               <input
                 type="text"
+                name="name"
                 class="form-control border-0 p-3"
                 placeholder="Votre nom complet"
               />
@@ -34,7 +36,8 @@
                 <span class="icon icon-Mail text-primary"></span>
               </div>
               <input
-                type="text"
+                type="email"
+                name="email"
                 class="form-control border-0 p-3"
                 placeholder="Votre address email"
               />
@@ -44,11 +47,13 @@
                 <span class="icon icon-Tie text-primary"></span>
               </div>
               <input
-                type="password"
+                type="text"
+                name="profession"
                 class="form-control border-0 p-3"
                 placeholder="Votre profession"
               />
             </div>
+            <input type="hidden" name="id" value="{{site.data.meta.SSheetId}}"/>
             <button class="btn btn-primary btn-rounded">
               souscrire
             </button>
